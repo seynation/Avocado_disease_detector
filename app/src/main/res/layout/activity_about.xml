@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutActivity"
+    tools:ignore="HardcodedText">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:background="@drawable/custom_rectangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="Control of Anthracnose Disease"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="660dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:elevation="12dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageanthra"
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/im3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="Ugonjwa huu upo kwenye kundi la magonjwa fangalia ambayo huathiri mimea anuwai katika maeneo yenye joto na unyevu. Ugonjwa huu huathiri pia Parachichi , lakini pia hupatikana katika mimea mingine kadhaa, pamoja na nyasi. Ugonjwa huu pia husababisha kukauka, kukauka, na kufa kwa mimea.\n\n Kawaida huambukiza shina zinazoendelea na majani. Fangasi hutoa spores katika miili midogo ya matunda yenye umbo la jua, iliyozama, iliyojulikana kama acervuli. Appliiation hii iitwayo AddApp itakusaidia kama mkulima kugundua haraka hali halisi ya Jani la Parachichi, ambayo huamua jinsi matunda ya Parachichi yana afya. \n\n AddApp ni Mfumo uliotengenezwa kwa Teknolojia iitwayo Machine Laerning  ambao hufanya  kazi kulingana na data nyingi kuhusu ugonjwa wa Parachichi. \n\n Njia bora ya kutumia App hii ni kwenda kwenye Dashibodi, kisha bonyeza Tambua, kisha Bonyeza Pakia Picha, Chagua Jani ambalo unataka kuangalia hali kisha upakie na baada ya hiyo Bonyeza Angalia Hali, kisha App Itachunguza Hali na Toa ripoti juu ya Jani."
+                    android:textColor="#000"
+                    android:textSize="20sp">
+
+                </TextView>
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/diseases1"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

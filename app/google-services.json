@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "40631918090",
+    "firebase_url": "https://imageprocess-4210a.firebaseio.com",
+    "project_id": "imageprocess-4210a",
+    "storage_bucket": "imageprocess-4210a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40631918090:android:ed925942e2241e598e49f3",
+        "android_client_info": {
+          "package_name": "com.budyfriend.imageprocessing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40631918090-0dqs7livkp1n226r5lktmbfjfu8t46um.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.budyfriend.imageprocessing",
+            "certificate_hash": "a00e910faca3b962f67016c4ecd335cecad25ba9"
+          }
+        },
+        {
+          "client_id": "40631918090-r4joj600fgtm30e55gql1m4cr6i7fepi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA07M81MsdbXj5mP9JpUQ4QJvt_BLNa68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40631918090-r4joj600fgtm30e55gql1m4cr6i7fepi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

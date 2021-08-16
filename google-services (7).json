@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "438276530876",
+    "project_id": "ovarcado-disease-app-42865",
+    "storage_bucket": "ovarcado-disease-app-42865.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438276530876:android:60195df3c8ba17a46aa6b9",
+        "android_client_info": {
+          "package_name": "com.budyfriend.imageprocessing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438276530876-uhet3498ls3ainfp2lcc5fgddrr7j2vp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.budyfriend.imageprocessing",
+            "certificate_hash": "eff657fab68a111e836c8c18029f6ce83150bf65"
+          }
+        },
+        {
+          "client_id": "438276530876-5188sg0i9bh014lm91mi3b9pehobuemb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb9XgjOW_Yc5yavNQxsYhL65qY0eALi5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438276530876-5188sg0i9bh014lm91mi3b9pehobuemb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
